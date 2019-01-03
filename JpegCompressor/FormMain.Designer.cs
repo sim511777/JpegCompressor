@@ -1,5 +1,5 @@
 ﻿namespace JpegCompressor {
-   partial class Form1 {
+   partial class FormMain {
       /// <summary>
       /// 필수 디자이너 변수입니다.
       /// </summary>
@@ -169,15 +169,15 @@
          this.pbxDst.ZoomMin = 0.1F;
          this.pbxDst.ZoomStep = 1.2F;
          // 
-         // Form1
+         // FormMain
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          this.ClientSize = new System.Drawing.Size(1092, 517);
          this.Controls.Add(this.splitContainer1);
          this.Controls.Add(this.panel1);
-         this.Name = "Form1";
-         this.Text = "Form1";
+         this.Name = "FormMain";
+         this.Text = "Jpeg Compressor";
          this.panel1.ResumeLayout(false);
          this.panel1.PerformLayout();
          this.splitContainer1.Panel1.ResumeLayout(false);

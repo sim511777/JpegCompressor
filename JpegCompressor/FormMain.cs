@@ -11,8 +11,8 @@ using System.IO;
 using System.Drawing.Imaging;
 
 namespace JpegCompressor {
-   public partial class Form1 : Form {
-      public Form1() {
+   public partial class FormMain : Form {
+      public FormMain() {
          InitializeComponent();
       }
 
