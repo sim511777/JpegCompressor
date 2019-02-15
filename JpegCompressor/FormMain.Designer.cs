@@ -30,8 +30,8 @@
          this.lblSrc = new System.Windows.Forms.Label();
          this.lblDst = new System.Windows.Forms.Label();
          this.lblQuality = new System.Windows.Forms.Label();
-         this.pbxSrc = new JpegCompressor.ZoomPictureBox();
-         this.pbxDst = new JpegCompressor.ZoomPictureBox();
+         this.pbxSrc = new ShimLib.ZoomPictureBox();
+         this.pbxDst = new ShimLib.ZoomPictureBox();
          this.panel1.SuspendLayout();
          ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
          this.splitContainer1.Panel1.SuspendLayout();
@@ -200,8 +200,8 @@
       private System.Windows.Forms.Label lblDst;
       private System.Windows.Forms.Label lblSrc;
       private System.Windows.Forms.Label lblQuality;
-      private ZoomPictureBox pbxSrc;
-      private ZoomPictureBox pbxDst;
+      private ShimLib.ZoomPictureBox pbxSrc;
+      private ShimLib.ZoomPictureBox pbxDst;
    }
 }
 
