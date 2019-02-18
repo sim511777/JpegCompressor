@@ -49,8 +49,7 @@ namespace JpegCompressor {
          this.pbxDst.Invalidate();
 
          // 정보 표시
-         this.lblQuality.Text = $"{this.trbQuality.Value}%";
-         this.lblDst.Text = $"{ms.Position / 1000}KB";
+         this.lblDst.Text = $"{this.trbQuality.Value}% : {ms.Length / 1000}KB";
       }
 
       private void btnPaste_Click(object sender, EventArgs e) {
